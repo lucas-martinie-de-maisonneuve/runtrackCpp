@@ -3,8 +3,6 @@ using namespace std;
 
 int main()
 {
-    printf("");
-
     int n, total = 0;
     cout << "\nVeuillez entrer un entier sup\x82rieur ou \x82gal \x85 5 : ";
     cin >> n;
