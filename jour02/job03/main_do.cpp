@@ -6,6 +6,7 @@ int main()
     int i, n, som;
     i = 0;
     som = 0;
+    cout << "-- Avec un do/while --" << endl;
     do
     {
         cout << "Donnez un entier : ";
