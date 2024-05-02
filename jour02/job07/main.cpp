@@ -6,7 +6,7 @@ int main() {
     cout << "Veuillez entrez un entier : "; cin >> a;
     cout << "Veuillez entrez un second entier : "; cin >> b;
 
-    for (int i = a; i <= b ; i++)
-        cout << i << endl;
+    for (a ; a <= b ; a++)
+        cout << a << endl;
     return 0;
 }
