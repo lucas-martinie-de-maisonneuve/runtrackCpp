@@ -10,7 +10,6 @@ int main()
     for (int i = 1; i <= n; i++)
     {
         resultat += (1.0 / i);
-        cout << resultat << endl;
     };
-    cout << "Le résultat de la somme jusqu'à 1 / " << n << " est : " << resultat;
+    cout << "Le r\x82sultat de la somme de 1/1 jusqu'\x85 1/" << n << " est : " << resultat;
 }
