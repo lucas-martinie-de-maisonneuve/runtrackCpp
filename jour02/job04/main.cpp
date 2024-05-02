@@ -21,7 +21,7 @@ int main(void)
     ss >> num2;
 
     if (operateur == '/' && num2 == 0) {
-        cout << "Division par z"<<char(130)<<"ro impossible" << endl;
+        cout << "Division par z\202ro impossible" << endl;
         return 1;
     }
 
@@ -39,10 +39,10 @@ int main(void)
             total = num1 / num2;
             break;
         default:
-            cout << "Op"<<char(130)<<"ration invalide." << endl;
+            cout << "Op\202ration invalide." << endl;
     }
 
-    cout << "Le r"<<char(130)<<"sultat est : " << total << endl << endl;
+    cout << "Le r\202sultat est : " << total << endl << endl;
 
     return 0;
 }
