@@ -19,5 +19,6 @@ int main()
             compteur++;
         }
     }
-    cout << "Il y a " << compteur << " \x82l\x82ments sup\x82rieur \x85 5";
+    cout << "Il y a " << compteur << " \x82l\x82ments sup\x82rieur ou \x82gale \x85 5";
+    return 0;
 }
