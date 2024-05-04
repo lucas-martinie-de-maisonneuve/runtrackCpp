@@ -6,8 +6,7 @@ int b = 20;
 
 int main()
 {
-    int *ptrA = &a;
-    int *ptrB = &b;
+    int *ptrA = &a, *ptrB = &b;
     int n = *ptrA;
 
     cout << "Avant l'"<<char(130)<<"change :" << endl << "a = " << a << ", b = " << b << endl;
